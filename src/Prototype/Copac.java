@@ -6,11 +6,13 @@ public class Copac {
     public String culoare;
     public   String familie;
     public Locatie locatiePlantare;
-     public void planteaza(Locatie l)
+
+
+    public void planteaza(Locatie locatiePlantare)
      {this.locatiePlantare.x= locatiePlantare.x;
          this.locatiePlantare.y= locatiePlantare.y;
-         System.out.println("Locatie X:" + l.x);
-         System.out.println("Locatie Y:" + l.y);
+//         System.out.println("Locatie X:" + locatiePlantare.x);
+//         System.out.println("Locatie Y:" + locatiePlantare.y);
      }
 
 
